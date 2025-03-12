@@ -1,17 +1,66 @@
-/* Error: @use rules must be written before any other rules.
- *    ,
- * 66 | @use "sass:color";
- *    | ^^^^^^^^^^^^^^^^^
- *    '
- *   style.scss 66:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-    "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: @use rules must be written before any other rules.\a    \2577 \a 66 \2502  @use "sass:color";\d\a    \2502  ^^^^^^^^^^^^^^^^^\a    \2575 \a   style.scss 66:1  root stylesheet';
+.container .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.header {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+.header h1 {
+  color: red;
+}
+.header h2 {
+  color: blue;
+}
+.header .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+.header .box span {
+  color: red;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgb(28.5740585774, 107.9464435146, 161.1259414226);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.footer span {
+  font-size: 40px;
+  color: rgb(12, 90, 15);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.container .card {
+  background-color: rgb(181.9539748954, 217.9372384937, 242.0460251046);
+  color: #333;
+  width: 40%;
+}
+.container h2 {
+  font-size: 1.5rem;
+}
+.container p {
+  font-size: 1rem;
+}
+.container .special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5733;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

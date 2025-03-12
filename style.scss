@@ -1,9 +1,12 @@
-@use "sass:color"; // @use 규칙이 최상단에 위치해야 합니다.
+@use "sass:color";
+// 변수 사용
+// 최신 버전에서는 @use 필요
 
 $primary-color: #3498db;
 $secondary-color: #ff5733;
 $text-color: #333;
 $padding: 10px;
+// 연산자
 
 // 상속(Extend)
 %card-style {
@@ -12,15 +15,14 @@ $padding: 10px;
   padding: 20px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 // 믹스인
 @mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 // 중첩
+// 상단
 .header {
   background-color: antiquewhite;
   padding: 20px;
@@ -41,7 +43,6 @@ $padding: 10px;
     }
   }
 }
-
 .footer {
   span {
     font-size: 40px;
@@ -76,3 +77,5 @@ $padding: 10px;
     color: #fff;
   }
 }
+// 연산자
+// 🎯 5. 연산자 (Operators)
