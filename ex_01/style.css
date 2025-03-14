@@ -1,0 +1,81 @@
+body {
+  background-color: #c7d7f6;
+  font-size: 13px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.section {
+  background-color: skyblue;
+  width: 80%;
+}
+.section .list {
+  display: flex;
+}
+.section .list li {
+  padding: 10px;
+  background-color: #f9fafa;
+}
+.section .list li:last-child {
+  background-color: blueviolet;
+}
+.section .list li:hover {
+  background-color: #ee4444;
+}
+
+.btn {
+  background-color: #ee4444;
+  border: none;
+  cursor: pointer;
+}
+.btn.active {
+  background-color: aqua;
+}
+.btn.active:hover {
+  background-color: rgb(23, 76, 76);
+}
+.btn:hover {
+  background-color: #a82525;
+}
+
+.fs-small {
+  font-size: 18px;
+  color: rgb(246, 250, 13);
+}
+.fs-medium {
+  font-size: 25px;
+  color: blue;
+}
+.fs-large {
+  font-size: 30px;
+  color: rgb(30, 210, 30);
+}
+
+.product li {
+  width: 300px;
+  height: 20px;
+  margin: 3px;
+  background-color: #fff;
+}
+.box {
+  width: 300px;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+.box {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  background-color: #ee4444;
+}
+
+/*# sourceMappingURL=style.css.map */
